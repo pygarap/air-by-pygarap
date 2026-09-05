@@ -65,7 +65,7 @@ repos:
             - .pre-commit-config-check.yaml
             - .pre-commit-config-format.yaml
   - repo: https://github.com/rhysd/actionlint
-    rev: v1.7.10
+    rev: v1.7.12
     hooks:
       - id: actionlint # Runs actionlint to lint GitHub Actions workflow files.
         language: golang
@@ -73,7 +73,7 @@ repos:
         additional_dependencies:
           - "github.com/wasilibs/go-shellcheck/cmd/shellcheck@v0.11.1"
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 0.36.1 # A JSON Schema CLI and pre-commit hook built on jsonschema.
+    rev: 0.38.0 # A JSON Schema CLI and pre-commit hook built on jsonschema.
     hooks:
       - id: check-codecov # Validate Codecov config against the schema provided by SchemaStore.
         priority: 0
@@ -86,17 +86,17 @@ repos:
         priority: 0
         additional_dependencies: ["json5"]
   - repo: https://github.com/rohaquinlop/complexipy-pre-commit
-    rev: v5.1.0
+    rev: v7.0.1
     hooks:
       - id: complexipy # Run the cognitive complexity checker.
         priority: 0
   - repo: https://github.com/fredrikaverpil/creosote
-    rev: v4.2.0
+    rev: v5.2.0
     hooks:
       - id: creosote # Identify unused dependencies and avoid a bloated virtual environment.
         priority: 0
   - repo: https://github.com/rtts/djhtml
-    rev: 3.0.10
+    rev: 3.0.11
     hooks:
       - id: djhtml # A pure-Python Django/Jinja template indenter without dependencies.
         priority: 0
@@ -113,7 +113,7 @@ repos:
           - flake8-class-attributes-order==0.3.0 # A flake8 extension that checks classes attributes order.
           - flake8-pydantic==0.4.0 # A flake8 plugin to check Pydantic related code.
   - repo: https://github.com/hougesen/mdsf
-    rev: v0.11.1
+    rev: v0.12.1
     hooks:
       - id: mdsf-verify # Lint markdown code snippets using your favorite tools.
         language: rust
@@ -129,7 +129,7 @@ repos:
       - id: pyroma # Rate your Python packages package friendliness.
         priority: 0
   - repo: https://github.com/renovatebot/pre-commit-hooks
-    rev: 43.8.5
+    rev: 44.59.3
     hooks:
       - id: renovate-config-validator
         language: bun
@@ -140,7 +140,7 @@ repos:
           glob:
             - .github/renovate.json5
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.15.0
+    rev: v0.16.5
     hooks:
       - id: ruff-format # Check for formatting violations using Ruff.
         priority: 0
@@ -151,24 +151,24 @@ repos:
         args: ["--output-format=concise"]
         types_or: [python]
   - repo: https://github.com/rvben/rumdl-pre-commit
-    rev: v0.1.18
+    rev: v0.2.63
     hooks:
       - id: rumdl # A modern, high-performance Markdown linter and formatter, built for speed in Rust.
         priority: 0
   - repo: https://github.com/pre-commit/sync-pre-commit-deps
-    rev: v0.0.3
+    rev: v0.0.5
     hooks:
       - id: sync-pre-commit-deps # Sync pre-commit hook dependencies based on other installed hooks.
         files:
           glob:
             - .pre-commit-config-check.yaml
   - repo: https://github.com/tombi-toml/tombi-pre-commit
-    rev: v0.7.28
+    rev: v1.5.0
     hooks:
       - id: tombi-lint # A TOML linter.
         priority: 0
   - repo: https://github.com/crate-ci/typos
-    rev: v1.43.4
+    rev: v1.50.1
     hooks:
       - id: typos # Source code spell checker.
         priority: 0
