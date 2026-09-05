@@ -119,65 +119,65 @@ dev = [
 ]
 devtools = []
 docs = [
-    "click==8.3.1", # https://pypi.org/project/click
+    "click==8.5.0", # https://pypi.org/project/click
     "mkdocs==1.6.1", # https://pypi.org/project/mkdocs
     "mkdocs-autorefs==1.4.4", # https://pypi.org/project/mkdocs-autorefs
     "mkdocs-exclude==1.0.2", # https://pypi.org/project/mkdocs-exclude
-    "mkdocs-jupyter==0.25.1", # https://pypi.org/project/mkdocs-jupyter
+    "mkdocs-jupyter==0.26.3", # https://pypi.org/project/mkdocs-jupyter
     "mkdocs-llmstxt==0.5.0", # https://pypi.org/project/mkdocs-llmstxt
-    "mkdocs-material[imaging]==9.7.1", # https://pypi.org/project/mkdocs-material
-    "mkdocs-redirects==1.2.2", # https://pypi.org/project/mkdocs-redirects
-    "mkdocstrings-python==2.0.2", # https://pypi.org/project/mkdocstrings-python
-    "mkdocstrings[python]==1.0.3", # https://pypi.org/project/mkdocstrings
+    "mkdocs-material[imaging]==9.7.7", # https://pypi.org/project/mkdocs-material
+    "mkdocs-redirects==1.2.3", # https://pypi.org/project/mkdocs-redirects
+    "mkdocstrings-python==2.0.8", # https://pypi.org/project/mkdocstrings-python
+    "mkdocstrings[python]==1.0.6", # https://pypi.org/project/mkdocstrings
 ]
 prek-hooks = [
-    "beautysh==6.4.2", # https://pypi.org/project/beautysh
-    "check-jsonschema==0.36.1", # https://pypi.org/project/check-jsonschema
-    "complexipy==5.2.0", # https://pypi.org/project/complexipy
-    "creosote==4.1.0", # https://pypi.org/project/creosote
-    "djhtml==3.0.10", # https://pypi.org/project/djhtml
-    "djlint==1.36.4", # https://pypi.org/project/djlint
-    "editorconfig-checker==3.6.0", # https://pypi.org/project/editorconfig-checker
+    "beautysh==6.4.3", # https://pypi.org/project/beautysh
+    "check-jsonschema==0.38.0", # https://pypi.org/project/check-jsonschema
+    "complexipy==7.0.1", # https://pypi.org/project/complexipy
+    "creosote==5.2.0", # https://pypi.org/project/creosote
+    "djhtml==3.0.11", # https://pypi.org/project/djhtml
+    "djlint==1.45.0", # https://pypi.org/project/djlint
+    "editorconfig-checker==3.11.1", # https://pypi.org/project/editorconfig-checker
     "flake8==7.3.0", # https://pypi.org/project/flake8
     "flake8-class-attributes-order==0.3.0", # https://pypi.org/project/flake8-class-attributes-order
     "flake8-pydantic==0.4.0", # https://pypi.org/project/flake8-pydantic
     "flake8-pyproject==1.2.4", # https://pypi.org/project/flake8-pyproject
     "google-yamlfmt==0.21.0", # https://pypi.org/project/google-yamlfmt
     "pre-commit-hooks==6.0.0", # https://pypi.org/project/pre-commit-hooks
-    "prek==0.3.2", # https://pypi.org/project/prek
-    "pyrefly==0.52.0", # https://pypi.org/project/pyrefly
+    "prek==0.5.2", # https://pypi.org/project/prek
+    "pyrefly==1.2.0", # https://pypi.org/project/pyrefly
     "pyroma==5.0.1", # https://pypi.org/project/pyroma
-    "ruff==0.15.0", # https://pypi.org/project/ruff
-    "rumdl==0.1.18", # https://pypi.org/project/rumdl
+    "ruff==0.16.5", # https://pypi.org/project/ruff
+    "rumdl==0.2.63", # https://pypi.org/project/rumdl
     "shellcheck-py==0.11.0.1", # https://pypi.org/project/shellcheck-py
-    "shfmt-py==3.12.0.2", # https://pypi.org/project/shfmt-py
-    "sync-pre-commit-deps==0.0.3", # https://pypi.org/project/sync-pre-commit-deps
-    "tombi==0.7.28", # https://pypi.org/project/tombi
-    "ty==0.0.14", # https://pypi.org/project/ty
-    "typos==1.43.4", # https://pypi.org/project/typos
-    "vale==3.13.0.0", # https://pypi.org/project/vale
-    "validate-pyproject-schema-store[all]==2026.1.22", # https://pypi.org/project/validate-pyproject-schema-store
-    "zizmor==1.22.0", # https://pypi.org/project/zizmor
+    "shfmt-py==4.1.0", # https://pypi.org/project/shfmt-py
+    "sync-pre-commit-deps==0.0.5", # https://pypi.org/project/sync-pre-commit-deps
+    "tombi==1.5.0", # https://pypi.org/project/tombi
+    "ty==0.0.78", # https://pypi.org/project/ty
+    "typos==1.50.1", # https://pypi.org/project/typos
+    "vale==3.19.0.0", # https://pypi.org/project/vale
+    "validate-pyproject-schema-store[all]==2026.8.29", # https://pypi.org/project/validate-pyproject-schema-store
+    "zizmor==1.30.0", # https://pypi.org/project/zizmor
 ]
 test = [
-    "coverage[toml]==7.13.4", # https://pypi.org/project/coverage
-    "diff-cover==10.2.0", # https://pypi.org/project/diff-cover
+    "coverage[toml]==7.16.0", # https://pypi.org/project/coverage
+    "diff-cover==10.5.1", # https://pypi.org/project/diff-cover
     "full-match==0.0.3", # https://pypi.org/project/full-match
     "httpx==0.28.1", # https://pypi.org/project/httpx
-    "pyinstrument==5.1.2", # https://pypi.org/project/pyinstrument
-    "pytest==9.0.2", # https://pypi.org/project/pytest
-    "pytest-asyncio==1.3.0", # https://pypi.org/project/pytest-asyncio
-    "pytest-benchmark==5.2.3", # https://pypi.org/project/pytest-benchmark
-    "pytest-cov==7.0.0", # https://pypi.org/project/pytest-cov
-    "pytest-env==1.3.2", # https://pypi.org/project/pytest-env
-    "pytest-github-actions-annotate-failures==0.3.0", # https://pypi.org/project/pytest-github-actions-annotate-failures
+    "pyinstrument==5.1.3", # https://pypi.org/project/pyinstrument
+    "pytest==9.1.1", # https://pypi.org/project/pytest
+    "pytest-asyncio==1.4.0", # https://pypi.org/project/pytest-asyncio
+    "pytest-benchmark==5.3.0", # https://pypi.org/project/pytest-benchmark
+    "pytest-cov==7.1.0", # https://pypi.org/project/pytest-cov
+    "pytest-env==1.7.0", # https://pypi.org/project/pytest-env
+    "pytest-github-actions-annotate-failures==0.4.2", # https://pypi.org/project/pytest-github-actions-annotate-failures
     "pytest-pretty==1.3.0", # https://pypi.org/project/pytest-pretty
     "pytest-smoke==0.10.0", # https://pypi.org/project/pytest-smoke
 ]
 typing-stubs = [
-    "types-Markdown==3.10.2.20260211", # https://pypi.org/project/types-Markdown
-    "types-lxml==2026.1.1", # https://pypi.org/project/types-lxml
-    "types-pygments==2.19.0.20251121", # https://pypi.org/project/types-pygments
+    "types-Markdown==3.10.2.20260712", # https://pypi.org/project/types-Markdown
+    "types-lxml==2026.2.16", # https://pypi.org/project/types-lxml
+    "types-pygments==2.21.0.20260819", # https://pypi.org/project/types-pygments
 ]
 
 # endregion dependencies
