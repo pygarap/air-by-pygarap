@@ -24,13 +24,13 @@ jobs:
       github.actor != 'renovate'
     steps:
       - name: Checkout repository
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           # Required for git push (CHANGELOG.md)
           persist-credentials: true # zizmor: ignore[artipacked]
       - name: Generate latest changes entry
-        uses: tiangolo/latest-changes@c9d329cb147f0ddf4fb631214e3f838ff17ccbbd # 0.4.1
+        uses: tiangolo/latest-changes@a8b61c97c207b9f0770d49ef657e26c5f20c8935 # 0.7.2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           latest_changes_file: CHANGELOG.md
